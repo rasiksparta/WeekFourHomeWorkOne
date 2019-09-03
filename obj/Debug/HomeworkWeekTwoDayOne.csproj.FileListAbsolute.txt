@@ -1,0 +1,7 @@
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\HomeworkWeekTwoDayOne\bin\Debug\HomeworkWeekTwoDayOne.exe.config
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\HomeworkWeekTwoDayOne\bin\Debug\HomeworkWeekTwoDayOne.exe
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\HomeworkWeekTwoDayOne\bin\Debug\HomeworkWeekTwoDayOne.pdb
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\HomeworkWeekTwoDayOne\obj\Debug\HomeworkWeekTwoDayOne.csproj.CoreCompileInputs.cache
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\HomeworkWeekTwoDayOne\obj\Debug\HomeworkWeekTwoDayOne.exe
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\HomeworkWeekTwoDayOne\obj\Debug\HomeworkWeekTwoDayOne.pdb
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\HomeworkWeekTwoDayOne\obj\Debug\HomeworkWeekTwoDayOne.csprojAssemblyReference.cache

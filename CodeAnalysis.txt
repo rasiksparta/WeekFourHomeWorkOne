@@ -1,0 +1,74 @@
+************************************** Code analysis **************************************
+
+************************** Classes ***************************
+
+Code consisits of a class called item that implements System.Icomparable
+
+Documentation provided by microsoft states that Icomparable interface should be implemented 
+by a class to sort its instances.
+
+Class item contains a single instance variable called Name of type string and scope public
+
+class item that implements Icomparable interface, implements the interface method - CompareTo(Object o)
+
+****************** Method CompareTo(Object o)******************
+The method takes in a parameter 'o' of Object type
+'o' is then casted to item type using 'as' keyword
+
+'as' key word is used to avoid IvalidCastException which is thrown when type casting is used between 
+uncompatible types
+
+Once casted successfully, the property Name is accessible from 'o'
+
+Property Name of 'o' and the current instance are compared using the method String.CompareTo(string str)
+
+The comarision returns:
+	-1 - If the argument string position comes later than the one the method is called on
+	 0 - If the argument string position is the same as the one the method is called on 
+	 1 - If the argument string position comes before than the one the method is called on
+
+
+**************************** Cases ****************************
+Two variables defined 
+a and b
+
+In the following '->' is used to access property and '.' is used to access methods
+case 1: 
+a -> name: "Bob"
+b -> name: "Carly"
+
+program flow: 
+1) a.CompareTo(b) is called, so b is passed to the method as the argument
+
+2) b is casted to Item type using as keyword 
+
+3) a -> name.CompareTo( b -> name) is called 
+   Since "Bob" comes before "Carly", the return int is -1
+4) a.CompareTo(b) returns -1
+
+case 2:
+a -> name: "Carly"
+b -> name: "Carly"
+
+program flow: 
+1) a.CompareTo(b) is called, so b is passed to the method as the argument
+
+2) b is casted to Item type using as keyword 
+
+3) a -> name.CompareTo( b -> name) is called 
+   Since the two strings are the same, they hold the same position hence the 
+   return int is 0
+4) a.CompareTo(b) returns 0
+
+case 3:
+a -> name: "Edward"
+b -> name: "Carly"
+
+program flow:
+1) a.CompareTo(b) is called, so b is passed to the method as the argument
+
+2) b is casted to Item type using as keyword 
+
+3) a -> name.CompareTo( b -> name) is called 
+   Since "Edward" comes after "Carly", return int is 1
+4) a.CompareTo(b) returns 1
